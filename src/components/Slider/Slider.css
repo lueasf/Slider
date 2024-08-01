@@ -6,11 +6,13 @@
     font-weight: 300;
 }
 
-.slider {
-    max-width: 900px;
+.slider  {
+    max-width: 600px;
     aspect-ratio: 2/3; /*taille de l'image*/
     margin: 0 auto;
     position: relative;
+    margin-bottom: 50px;
+
 }
 
 .image-info {

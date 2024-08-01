@@ -1,9 +1,25 @@
 .index-info {
     text-align: center;
     color: #000;
-    margin: 80px 0 25px; /* haut gauche-droite bas */
+    margin: 30px 0 25px; /* haut gauche-droite bas */
     font-size: 25px;
     font-weight: 300;
+}
+
+h1 {
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin: 30px 0 5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin: 10px 0 40px;
+    text-align: center;
 }
 
 .slider  {
@@ -20,11 +36,10 @@
     z-index: 1; /* au dessus de l'image */
     right: 0;
     color: #111;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
     padding: 8px 12px;
     font-weight: 400;
-
 }
 
 .slider-img {

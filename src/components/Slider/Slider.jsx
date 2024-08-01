@@ -22,12 +22,14 @@ export default function Slider() {
     else {
       newState = index + sliderIndex
     }
-    setSliderIndex(newState); // ici
+    setSliderIndex(newState); // ici on change l'index de l'image
 
   }
 
   return (
     <>
+    <h1>Artworks by Lvko</h1>
+    <h2>Process series</h2>
         <p className="index-info">{sliderIndex}/{sliderData.length}</p>
         <div className="slider">
           <p className="image-info">{sliderData[sliderIndex-1].description}</p>  

@@ -28,13 +28,13 @@ export default function Slider() {
 
   return (
     <>
-    <h1>Artworks by Lvko</h1>
+    <h1>Artworks by <a href="https://www.instagram.com/lukomade/">Lvko</a></h1>
     <h2>Process series</h2>
         <p className="index-info">{sliderIndex}/{sliderData.length}</p>
         <div className="slider">
           <p className="image-info">{sliderData[sliderIndex-1].description}</p>  
           <img src={`/images/P${sliderIndex}.JPG`} alt="painting" className="slider-img" />
-
+          Process
           <button
           onClick={() => toggleImage(-1)}
           className="navigation-button prev-button">

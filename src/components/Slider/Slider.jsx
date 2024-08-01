@@ -34,7 +34,7 @@ export default function Slider() {
         <div className="slider">
           <p className="image-info">{sliderData[sliderIndex-1].description}</p>  
           <img src={`/images/P${sliderIndex}.JPG`} alt="painting" className="slider-img" />
-          Process
+      
           <button
           onClick={() => toggleImage(-1)}
           className="navigation-button prev-button">

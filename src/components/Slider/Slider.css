@@ -7,7 +7,7 @@
 }
 
 .slider {
-    max-width: 600px;
+    max-width: 900px;
     aspect-ratio: 2/3; /*taille de l'image*/
     margin: 0 auto;
     position: relative;
@@ -33,7 +33,62 @@
     border-radius: 20px;
 }
 
+/*bouton*/
 .navigation-button {
-    display: none;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #ffffff;
 
+    top: 50%;
+    transform: translateY(-50%); /*décalage de 50% par rapport au parent*/
+    cursor: pointer;
+    
+}
+
+.prev-button {
+    left: -100px;
+}
+
+.next-button {
+    right: -100px;
+}
+
+.navigation-button:hover {
+    background-color: #8d8d8d;
+}
+
+/* img de flèche*/
+.navigation-button img {
+    width: 23px;
+}
+
+/* responsiveness */
+@media (max-width: 850px) {
+    .index-info {
+        font-size: 16px;
+    }
+
+    .slider {
+        max-width: 400px;
+    }
+
+    .navigation-button {
+        width: 38px;
+        height: 38px;
+    }
+
+    .navigation-button img {
+        width: 17px;
+    }
+
+    .prev-button {
+        left: -10px;
+    }
+
+    .next-button {
+        right: -10px;
+    }
 }

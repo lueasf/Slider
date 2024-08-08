@@ -1,6 +1,7 @@
 # Slider
 
 J'ai réalisé ce simple slider React avec quelques-unes de mes peintures.
+J'héberge le site sur mon serveur perso, vous pouvez le voir ici : [Process](https://process.lueasf.art).
 
 ## Œuvres
 Il s'agit d'une série de toiles nommée "Process", composée pour l'instant de 4 toiles réalisées en juin 2024. On peut voir le titre en haut à droite. Vous pouvez aussi accéder à mon Instagram en cliquant sur mon pseudo : [Lvko](https://instagram.com/lukomade).
